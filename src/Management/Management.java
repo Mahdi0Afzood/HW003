@@ -1,9 +1,9 @@
-package Model.Management;
+package Management;
 
-import Model.List.CourseList;
-import Model.List.GradeList;
-import Model.List.ProfessorList;
-import Model.List.StaffList;
+import repository.List.CourseList;
+import repository.List.GradeList;
+import repository.List.ProfessorList;
+import repository.List.StaffList;
 
 
 public interface Management {

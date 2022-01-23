@@ -1,6 +1,6 @@
-package Model.Management;
+package Management;
 
-import Model.List.StaffList;
+import repository.List.StaffList;
 
 public class Login implements Management {
 

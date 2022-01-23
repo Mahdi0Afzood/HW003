@@ -1,6 +1,4 @@
-package Model.Management;
-
-import Model.Term.Course;
+package Management;
 
 public class Verification {
     public boolean isNull(Object object){

@@ -1,7 +1,7 @@
-package Model.List;
+package repository.List;
 
-import Model.Management.Management;
-import Model.Staff.Staff;
+import Management.Management;
+import Model.Staff;
 
 import java.util.ArrayList;
 

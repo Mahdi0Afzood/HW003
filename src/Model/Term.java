@@ -1,4 +1,4 @@
-package Model.Term;
+package Model;
 
 public enum Term {
     Term1,

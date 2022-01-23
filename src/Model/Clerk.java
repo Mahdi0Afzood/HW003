@@ -1,7 +1,6 @@
-package Model.Staff;
+package Model;
 
-import Model.Management.Management;
-import Model.Term.Course;
+import Management.Management;
 
 public class Clerk extends Staff implements Management {
     private final double salary = 1200000;

@@ -1,6 +1,6 @@
-package Model.Staff;
+package Model;
 
-import Model.Management.Management;
+import Management.Management;
 
 public class Staff {
     private int id; // id 1 -> clerk / 2-> student / 3 -> professor

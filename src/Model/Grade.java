@@ -1,12 +1,6 @@
-package Model.Term;
+package Model;
 
-import Model.List.GradeList;
-import Model.Management.Management;
-import Model.Staff.Staff;
-import Model.Staff.Student;
-import Model.Term.Course;
-
-import java.util.ArrayList;
+import Management.Management;
 
 public class Grade implements Management {
     private static Course course ;

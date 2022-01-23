@@ -1,9 +1,6 @@
-package Model.Term;
+package Model;
 
-import Model.Management.Management;
-import Model.Staff.Student;
-
-import java.util.ArrayList;
+import Management.Management;
 
 public class Course implements Management {
     private int courseId ;

@@ -1,12 +1,12 @@
 package View;
 
-import Model.Term.Grade;
-import Model.Term.Course;
-import Model.Management.Login;
-import Model.Management.Management;
-import Model.Staff.Clerk;
-import Model.Staff.Professor;
-import Model.Staff.Student;
+import Model.Grade;
+import Model.Course;
+import Management.Login;
+import Management.Management;
+import Model.Clerk;
+import Model.Professor;
+import Model.Student;
 
 import java.util.Scanner;
 
@@ -123,7 +123,7 @@ public class UniversityUi {
                 int courseId = Integer.parseInt(general);
                 if (inputAll[1].equals("1")) {
                     Management.PERSONLIST.showInfo(nationalCode);
-                    System.out.println("Please enter new info , Model.Staff.Student first name , last name ,nationalCode, age, username, password");
+                    System.out.println("Please enter new info , Model.Student first name , last name ,nationalCode, age, username, password");
                     String[] inputAllStudentInfo = universityUi.input.nextLine().trim().split(" ");
                     Student student = new Student(2, inputAllStudentInfo[0], inputAllStudentInfo[1], inputAllStudentInfo[2],
                             Integer.parseInt(inputAllStudentInfo[3]), inputAllStudentInfo[4], inputAllStudentInfo[5]);

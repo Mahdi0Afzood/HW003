@@ -1,8 +1,7 @@
-package Model.List;
+package repository.List;
 
-import Model.Staff.Professor;
-import Model.Staff.Staff;
-import Model.Staff.Student;
+import Model.Staff;
+import Model.Student;
 
 import java.util.Arrays;
 

@@ -1,9 +1,8 @@
-package Model.List;
+package repository.List;
 
-import Model.Term.Course;
-import Model.Management.Management;
+import Model.Course;
+import Management.Management;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class CourseList {

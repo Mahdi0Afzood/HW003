@@ -1,9 +1,6 @@
-package Model.Staff;
+package Model;
 
-import Model.Management.Management;
-import Model.Staff.Staff;
-
-import javax.swing.*;
+import Management.Management;
 
 
 public class Professor extends Staff implements Management {

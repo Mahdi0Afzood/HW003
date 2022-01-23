@@ -1,9 +1,8 @@
-package Model.List;
+package repository.List;
 
-import Model.Staff.Staff;
-import Model.Staff.Student;
-import Model.Term.Course;
-import Model.Term.Grade;
+import Model.Staff;
+import Model.Course;
+import Model.Grade;
 
 import java.util.ArrayList;
 

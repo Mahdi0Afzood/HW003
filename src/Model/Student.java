@@ -1,11 +1,8 @@
-package Model.Staff;
+package Model;
 
-import Model.Management.Management;
-import Model.Management.Verification;
-import Model.Term.Course;
+import Management.Management;
+import Management.Verification;
 
-import javax.swing.*;
-import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class Student extends Staff implements Management {
@@ -46,7 +43,7 @@ public class Student extends Staff implements Management {
 
     //todo
   /*  public void removeCourse(int courseID){
-        Model.Management.Management.courseStudents.remove(courseID);
+        Management.Management.courseStudents.remove(courseID);
     }*/
 
 
